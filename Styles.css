@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-danger-variant: rgb(37, 42, 45);
+    --color-blue: rgb(93, 95, 239);
+    --color-light: rgb(255, 255, 255);
+    --color-bleu-ciel: rgb(78, 204, 207);
+    --color-bg: rgb(230, 249, 250);
+    --color-bg1: rgb(245, 102, 135);
+    --color-bg2: rgb(254, 236, 240);
+    --color-primary: rgb(254, 217, 99);
+    --color-success: rgb(255, 250, 235);
+    --color-danger: rgb(0, 0, 0);
+    --color-ligth: rgba(255, 255, 255, 0.7);
+    --color-bg3: (#ebebf5)
+    
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+    letter-spacing: -1px;
+    text-alignment: center;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    background: var(--color-danger-variant);
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    padding-left: 150px;
+    height: 100px;
+    width: 100%;
+}
+
+.content{
+    padding-right: 150px;
+    padding-left: 150px;
+}
+
+label.logo {
+    color: var(--color-success);
+    font-size: 35px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: var(--color-light);
+    font-size: 17px;
+    text-transform: lowercase;
+}
+
+button {
+    background: var(--color-blue);
+    color: var(--color-bg);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav button:hover {
+    transition: .5s;
+}
+
+a:hover {
+    color: var(--color-blue);
+    transition: .5s;
+}
+
+label {
+    color: var(--color-light);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.hereo-section {
+    background-image: url('img/mchozo/blue-gradient-background-empty-scene-product-presentation-mockup-abstract-background-concept-3d-rendering_56104-2228.jpg');
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.What-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem;
+    
+}
+
+.text_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.content-lg{
+    display: flex;
+    width: 80%;
+    gap: 60px;
+}
+
+.image-container{
+    width: 30%;
+}
+
+.About_container {
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.my-heading{
+    color: var(--color-blue);
+    height: auto;
+}
+
+.my-header{
+    color: var();
+    font-weight: 600;
+    line-height: 1.5em
+    
+    
+}
+
+.my-end{
+    color: rgb(80, 75, 75);
+    font-size:14px ;
+}
+
+.read-more::after {
+    content: ' \2192'; 
+}
+
+.What-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-top: 20rem;
+    margin-bottom: 0.2rem;
+}
+
+.What_text{
+    text-align: left;
+    padding-top: 2rem;
+    
+}
+
+.what-image{
+    margin-bottom: 80px;
+    width: 50%;
+    height: 85%;
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.what-image img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
+}
+
+.top-image {
+    margin-bottom: 5.5px; 
+}
+
+.bottom-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottom-images img {
+    width: calc(50% - 10px);
+}
+
+.About-section{
+    background-color:#ebebf5;
+}
+
+.What-content{
+    padding: 5rem;
+}
+
+.making_text{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-contain{
+    text-align: left;
+    margin: .5rem;
+    font-size: 2.5rem;
+}
+.bg-container{
+    max-width: 600px; 
+        margin: 0 auto; 
+}
+
+.making-container{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.making-image{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 500px; 
+}
+
+.img{
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 450px; 
+}
+
+.read-more{
+    margin-top: 0.2rem;
+    color: var(--color-blue);
+    font-weight: 0.2rem;
+
+}
+
+.Values-section{
+    background: #ebebf5;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.Values_text{
+    text-align: left;
+    font-weight: 1.5rem;
+}
+
+.card-div h6{
+    font-size: 1rem;
+    text-align: left
+}
+
+.card-div p{
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.card-div {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    display: grid;
+    justify-content: space-between;
+    justify-self: auto;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+
+.Investment-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    position: relative;
+    top: 0.2rem;
+    max-width: 100rem;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 1.25rem;
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+}
+
+.Innovation-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    position: relative;
+    top: 0.2rem;
+    max-width: 100rem;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 1.25rem;
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+    
+    
+}
+
+.Integrity-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    position: relative;
+    top: 0.2rem;
+    max-width: 100rem;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 1.25rem;
+    box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+    -webkit-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+    -moz-box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.466);
+}
+
+
+
+.card-div {
+    animation: moveGrid 4s infinite; 
+} 
+
+.card-div:hover { 
+    animation-play-state: paused; 
+}
+
+.dev-sport{
+    display: flex;
+    justify-content: space-between;
+}
+
+.development-image{
+    margin-bottom: 100px;
+    width: 40%;
+    height: 55%;
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}   
+
